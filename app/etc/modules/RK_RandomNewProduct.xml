@@ -3,7 +3,7 @@
     <modules>
         <RK_RandomNewProduct>
             <active>true</active>
-            <codePool>local</codePool>
+            <codePool>community</codePool>
         </RK_RandomNewProduct>
     </modules>
 </config>
