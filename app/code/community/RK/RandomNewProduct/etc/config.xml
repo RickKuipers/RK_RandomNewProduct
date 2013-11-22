@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <RK_RandomNewProduct>
+            <version>1.0.0</version>
+        </RK_RandomNewProduct>
+    </modules>
+    <global>
+        <blocks>
+            <randomnewproduct>
+                <class>RK_RandomNewProduct_Block</class>
+            </randomnewproduct>
+        </blocks>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <randomnewproduct>
+                    <file>randomnewproduct.xml</file>
+                </randomnewproduct>
+            </updates>
+        </layout>
+    </frontend>
+    <default>
+        <catalog>
+            <randomnewproduct>
+                <max_new_products_pool>10</max_new_products_pool>
+                <cache_lifetime>6</cache_lifetime>
+            </randomnewproduct>
+        </catalog>
+    </default>
+</config>

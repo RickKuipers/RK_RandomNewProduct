@@ -1,0 +1,19 @@
+<?php
+/* @var $this RK_RandomNewProduct_Block_Random */
+$_product = $this->getProduct();
+?>
+
+<div class="block" id="random-new-product">
+    <div class="block-title">
+        <strong>
+            <span><?=$this->__('New Product')?></span>
+        </strong>
+    </div>
+    <div class="block-content">
+        <a href="<?=$_product->getProductUrl()?>" class="random-product">
+            <div class="product-image"><img src="<?=$this->helper('catalog/image')->init($_product, 'small_image')->resize(183)?>" /></div>
+            <div class="product-name"><?=$_product->getName()?></div>
+            <div class="product-price"><?=$this->helper('core')->currency($this->helper('tax')->getPrice($_product, $_product->getFinalPrice()))?></div>
+        </a>
+    </div>
+</div>

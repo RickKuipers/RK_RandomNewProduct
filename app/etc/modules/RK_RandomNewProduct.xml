@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <RK_RandomNewProduct>
+            <active>true</active>
+            <codePool>local</codePool>
+        </RK_RandomNewProduct>
+    </modules>
+</config>
